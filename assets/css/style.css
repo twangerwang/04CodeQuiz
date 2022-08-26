@@ -1,0 +1,118 @@
+:root {
+    --mint: rgb(24, 187, 181);
+    --lightgrey: rgb(211, 204, 204);
+    --darkgrey: rgb(41, 41, 43);
+    --darkblue: rgb(3, 3, 52);
+    --green:rgb(132, 227, 132);
+    --red:red;
+}
+
+* {
+    box-sizing: border-box;
+    /* border:2px solid red; */
+    
+  }
+  
+  body {
+    font-family: 'Special Elite', cursive;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width:100vw;
+    justify-content: flex-start;
+    background-image: url("../images/wallpaper.jpeg");
+    background-size:cover;
+    background-position: center;
+  } 
+
+  header {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 125%;
+    color: var(--green);
+}
+header a {
+    color:var(--red);
+}
+
+header div p {
+    padding-right:5px;
+}
+
+body div p {
+    color: var(--green);
+}
+
+.game-over p, .score-display {
+    color:var(--darkgrey);
+}
+
+.time-left{
+    display: flex;
+}
+
+main, .start-container {
+    text-align: center;
+}
+
+.multiple-choice{
+    flex-direction: column;
+}
+
+.start-button{
+    font-size:40px;
+    background-color: rgb(196, 17, 17);
+    color: white;
+    border-radius: 10px;
+    padding: 20px, 40px, 20px, 40px;
+}
+
+.start-button:hover{
+    cursor:pointer;
+    background-color: rgb(10, 102, 41);
+}
+
+.hide {
+    display:none;
+}
+
+.show {
+    display:inline-block;
+    width:60%;
+    text-align:center;   
+    padding:20px 20px;
+    border-radius:1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightgrey); 
+    background opacity: 50%;
+}
+
+.btn-grids {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+main div div button{
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    background-color: var(--green);;
+}
+
+main div div button:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+.game-over {
+    font-size:xx-large;
+}

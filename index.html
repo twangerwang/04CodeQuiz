@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="highscores.html"><p>View High Scores</p></a>
+        <h1>Quiz Game!</h1>
+        <div class="time-left">
+            <p>Time: </p>
+            <p class="seconds-left">20</p>
+        </div>
+    </header>
+    <div class="start-container">
+        <p>Answer the questions in the allotted time. Please remember each wrong answer will deduct 5 seconds.</p>
+        <button class="start-button">Start-Quiz</button>
+       </div>
+    <main>
+        <div class="quiz-question hide">
+            <h3 class="question-string">Question</h3>
+            <div class = "btn-grids">
+                <button id="btn1"></button>
+                <button id="btn2"></button>
+                <button id="btn3"></button>
+                <button id="btn4"></button>
+            </div>
+            <p id="answerCheck"></p>
+        </div>
+        <div class="game-over hide">
+            <p>Game Over!</p>
+            <p class ="score-display"></p>
+        </div>
+        <div class="multiple-choice"></div>
+        <div class="start-quiz"></div> 
+    </main>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
