@@ -66,7 +66,7 @@ function checkAnswer(userChoice){
         answerCheck.textContent = "Wrong!";
         // checks to to make sure we don't take off too much time and end up with negative seconds
         if (timerCount<5){
-            timeCount = 0;
+            timerCount = 0;
             over();
         }else{
         timerCount-=5;
