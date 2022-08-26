@@ -1,7 +1,7 @@
 # 04CodeQuiz
 Create a Quiz game utilizing an intro screen followed by questions and multiple choice answers. A countdown timer is used and a high scores table is displayed at the end of the game.
 
-## Descrciption
+## Description
 *Intro screen with directions for playing the game and a button to start the game'
 *Questions with multiple choice answers are displayed.
 *Questions are advanced by clicking an answer.
