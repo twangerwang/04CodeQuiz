@@ -8,10 +8,15 @@ Create a Quiz game utilizing an intro screen followed by questions and multiple 
 *At the end of the questions, a score is displayed along with a form to input initials/name for the high scores. 
 
 ## Mock-up
-The image below shows the webpage created
+The images below shows the webpage created
 
+Start of game
 ![alt text](assets/images/codequiz-start.png)
+
+Mid game
 ![alt text](assets/images/codequiz-mid.png)
+
+End of game
 ![alt text](assets/images/codequiz-end.png)
 
 ## Location
