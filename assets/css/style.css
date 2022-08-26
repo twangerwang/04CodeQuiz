@@ -72,11 +72,21 @@ main, .start-container {
     padding: 20px, 40px, 20px, 40px;
 }
 
-.start-button:hover{
+.submitbtn, #backmain{
+    font-size:20px;
+    background-color: rgb(196, 17, 17);
+    color: white;
+    border-radius: 10px;
+    padding: 20px, 40px, 20px, 40px;
+}
+.start-button:hover, .submitbtn:hover, #backmain:hover{
     cursor:pointer;
     background-color: rgb(10, 102, 41);
 }
-
+/* .start-button:hover{
+    cursor:pointer;
+    background-color: rgb(10, 102, 41);
+} */
 .hide {
     display:none;
 }

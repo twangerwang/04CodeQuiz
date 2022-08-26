@@ -16,6 +16,8 @@ var btnGrid = document.querySelector(".btn-grids");
 var score = 0;
 var scoreDisplay = document.querySelector(".score-display");
 var timerCount = 20;
+var init = document.querySelector(".initials");
+var initSubmitBtn = document.querySelector("#init-submit-button");
 
 //start of the quiz, checks if we are at the end of the questions
 function quizStart() {
@@ -42,13 +44,13 @@ function over(){
     questions.classList.replace("show", "hide");
     gameOver.classList.replace("hide", "show");
     scoreDisplay.textContent= "Score: "+ score;
+
 }
 
-// function highScore(event) {
-//     event.preventDefault();
+function highScore(event) {
+    event.preventDefault();
 
-// }
-
+}
 // checks to see if the user selected answer is correct or not
 function checkAnswer(userChoice){
     answerCheck.style.display = "block";
